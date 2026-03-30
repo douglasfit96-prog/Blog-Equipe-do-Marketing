@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipe do Marketing</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background:#0b0b0b;
+    color:white;
+}
+header{
+    text-align:center;
+    padding:40px 20px;
+    background:linear-gradient(180deg,#111,#000);
+}
+.logo{
+    width:180px;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(255,120,0,0.5);
+}
+h1{
+    margin-top:20px;
+    font-size:42px;
+    color:#ff7a00;
+}
+.sub{
+    margin-top:10px;
+    font-size:18px;
+    color:#ddd;
+}
+.hero{
+    max-width:900px;
+    margin:auto;
+    padding:50px 20px;
+    text-align:center;
+}
+.hero h2{
+    font-size:34px;
+    color:#fff;
+    margin-bottom:20px;
+}
+.hero p{
+    font-size:20px;
+    line-height:1.8;
+    color:#ddd;
+}
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+}
+.card{
+    background:#151515;
+    border:1px solid #ff7a00;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 0 20px rgba(255,122,0,0.2);
+}
+.card h3{
+    font-size:35px;
+    color:#ff7a00;
+}
+.card p{
+    margin-top:10px;
+    color:#ccc;
+}
+.blog{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+.blog h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#ff7a00;
+    font-size:32px;
+}
+.posts{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+.post{
+    background:#111;
+    padding:25px;
+    border-radius:20px;
+    border:1px solid #222;
+    transition:0.3s;
+}
+.post:hover{
+    transform:translateY(-5px);
+    border-color:#ff7a00;
+}
+.post h3{
+    color:#fff;
+    margin-bottom:15px;
+}
+.post p{
+    color:#ccc;
+    line-height:1.6;
+}
+.buttons{
+    text-align:center;
+    margin:50px 0;
+}
+.btn{
+    display:inline-block;
+    padding:15px 30px;
+    margin:10px;
+    background:#ff7a00;
+    color:white;
+    text-decoration:none;
+    border-radius:12px;
+    font-weight:bold;
+    transition:0.3s;
+}
+.btn:hover{
+    background:#ff9500;
+}
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    border-top:1px solid #222;
+    margin-top:40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Equipe do Marketing" class="logo">
+    <h1>Equipe do Marketing</h1>
+    <p class="sub">Humor • Trends • Academia • Vídeos Diários</p>
+</header>
+
+<section class="hero">
+    <h2>Quem Somos</h2>
+    <p>
+        Somos a <strong>Equipe do Marketing</strong>, um grupo formado por 
+        <strong>6 criadores de conteúdo</strong> apaixonados por vídeos de humor,
+        trends virais e o universo da academia e musculação.
+        <br><br>
+        Nosso objetivo é transformar o dia a dia da academia em conteúdos leves,
+        engraçados e altamente virais para Kwai, Instagram e TikTok.
+        <br><br>
+        Gravamos <strong>todos os dias</strong>, sempre trazendo novas ideias,
+        situações engraçadas da musculação e trends do momento.
+    </p>
+</section>
+
+<section class="stats">
+    <div class="card">
+        <h3>6</h3>
+        <p>Criadores</p>
+    </div>
+    <div class="card">
+        <h3>Daily</h3>
+        <p>Vídeos Todos os Dias</p>
+    </div>
+    <div class="card">
+        <h3>100%</h3>
+        <p>Humor Academia</p>
+    </div>
+</section>
+
+<section class="blog">
+    <h2>Nosso Conteúdo</h2>
+    <div class="posts">
+        <div class="post">
+            <h3>😂 Humor na Academia</h3>
+            <p>Esquetes engraçadas sobre alunos, professores, treinos e situações reais da musculação.</p>
+        </div>
+        <div class="post">
+            <h3>🔥 Trends Virais</h3>
+            <p>Adaptamos as trends do momento para o mundo fitness com muito humor e criatividade.</p>
+        </div>
+        <div class="post">
+            <h3>🏋️ Lifestyle Maromba</h3>
+            <p>Conteúdos sobre rotina, memes fitness e o dia a dia de quem vive academia.</p>
+        </div>
+    </div>
+</section>
+
+<div class="buttons">
+    <a href="#" class="btn">Seguir no Kwai</a>
+    <a href="#" class="btn">Instagram</a>
+    <a href="#" class="btn">Contato</a>
+</div>
+
+<footer>
+    © 2026 Equipe do Marketing • Todos os direitos reservados
+</footer>
+
+</body>
+</html>
